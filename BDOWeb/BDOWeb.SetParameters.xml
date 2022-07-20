@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="BDOWeb" />
+  <setParameter name="myConn-Web.config Connection String" value="Database=BDO; server=192.168.1.31; Port=3306; Uid=tracker; Pwd=Fede2256=;" />
+</parameters>

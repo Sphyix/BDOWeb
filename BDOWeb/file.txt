@@ -1,0 +1,1115 @@
+2019-03-13 09:12:45.5362|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 80
+2019-03-13 09:12:57.4206|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Nessuna nodewar selezionata
+   at BDOWeb.PrintNodewars.ShowPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 110Errore nell'inserimento.
+2019-03-13 09:16:38.1580|ERROR|BDOWeb.Errors| Error: System.IndexOutOfRangeException: There is no row at position 2.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.gvBindUserNodes()Errore nell'inserimento.
+2019-03-13 09:17:00.1927|ERROR|BDOWeb.Errors| Error: System.IndexOutOfRangeException: There is no row at position 2.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.gvBindUserNodes()Errore nell'inserimento.
+2019-03-13 09:17:08.3483|ERROR|BDOWeb.Errors| Error: System.IndexOutOfRangeException: There is no row at position 2.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.gvBindUserNodes()Errore nell'inserimento.
+2019-03-13 09:17:11.6453|ERROR|BDOWeb.Errors| Error: System.IndexOutOfRangeException: There is no row at position 2.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.gvBindUserNodes()Errore nell'inserimento.
+2019-03-13 09:17:31.0128|ERROR|BDOWeb.Errors| Error: System.IndexOutOfRangeException: There is no row at position 2.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.gvBindUserNodes()Errore nell'inserimento.
+2019-03-13 09:17:47.6198|ERROR|BDOWeb.Errors| Error: System.IndexOutOfRangeException: There is no row at position 2.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.gvBindUserNodes()Errore nell'inserimento.
+2019-03-13 09:17:57.1722|ERROR|BDOWeb.Errors| Error: System.IndexOutOfRangeException: There is no row at position 2.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.gvBindUserNodes()Errore nell'inserimento.
+2019-03-13 11:38:21.3513|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-13 16:30:00.9488|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'nome'.
+Invalid column name 'nome'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BDOWeb.WeekTotals.PopulateTable() in C:\Dev\BDOWeb\BDOWeb\WeekTotals.aspx.cs:line 74
+ClientConnectionId:d192897e-1429-4903-a8c7-7b5cb2a89be6
+Error Number:207,State:1,Class:16PrintDrops Errore
+2019-03-13 16:30:03.8595|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'nome'.
+Invalid column name 'nome'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BDOWeb.WeekTotals.PopulateTable() in C:\Dev\BDOWeb\BDOWeb\WeekTotals.aspx.cs:line 74
+ClientConnectionId:d192897e-1429-4903-a8c7-7b5cb2a89be6
+Error Number:207,State:1,Class:16PrintDrops Errore
+2019-03-13 16:30:05.4990|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'nome'.
+Invalid column name 'nome'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at BDOWeb.WeekTotals.PopulateTable() in C:\Dev\BDOWeb\BDOWeb\WeekTotals.aspx.cs:line 74
+ClientConnectionId:d192897e-1429-4903-a8c7-7b5cb2a89be6
+Error Number:207,State:1,Class:16PrintDrops Errore
+2019-03-13 16:59:05.2849|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.LoginStuff.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\LoginStuff.cs:line 63
+   at BDOWeb.LoginStuff.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\LoginStuff.cs:line 80
+ClientConnectionId:8682106c-ec03-49bd-9694-1480fd8fe072
+Error Number:8178,State:1,Class:16
+2019-03-13 17:04:32.3284|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:1f93a482-2532-49a5-a341-fcf6ba712b51
+Error Number:8178,State:1,Class:16
+2019-03-13 17:04:44.5681|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:1f93a482-2532-49a5-a341-fcf6ba712b51
+Error Number:8178,State:1,Class:16
+2019-03-13 17:04:57.8750|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:1f93a482-2532-49a5-a341-fcf6ba712b51
+Error Number:8178,State:1,Class:16
+2019-03-13 17:05:09.2399|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:1f93a482-2532-49a5-a341-fcf6ba712b51
+Error Number:8178,State:1,Class:16
+2019-03-13 17:05:24.1355|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:1f93a482-2532-49a5-a341-fcf6ba712b51
+Error Number:8178,State:1,Class:16
+2019-03-13 17:05:30.1155|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:1f93a482-2532-49a5-a341-fcf6ba712b51
+Error Number:8178,State:1,Class:16
+2019-03-13 17:06:41.5935|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:b174e309-fdce-4999-8fa9-f5796a2e187f
+Error Number:8178,State:1,Class:16
+2019-03-13 17:06:43.6509|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:b174e309-fdce-4999-8fa9-f5796a2e187f
+Error Number:8178,State:1,Class:16
+2019-03-13 17:07:27.4454|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:b174e309-fdce-4999-8fa9-f5796a2e187f
+Error Number:8178,State:1,Class:16
+2019-03-13 17:07:29.5574|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:b174e309-fdce-4999-8fa9-f5796a2e187f
+Error Number:8178,State:1,Class:16
+2019-03-13 17:10:59.7461|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:7f6543d7-2da1-4f64-83f7-e8a4982b2416
+Error Number:8178,State:1,Class:16
+2019-03-13 17:11:08.0323|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:7f6543d7-2da1-4f64-83f7-e8a4982b2416
+Error Number:8178,State:1,Class:16
+2019-03-13 17:11:13.3241|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:7f6543d7-2da1-4f64-83f7-e8a4982b2416
+Error Number:8178,State:1,Class:16
+2019-03-13 17:13:35.1713|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:27159d8d-4b6d-4c67-a06b-3e7e04e955b1
+Error Number:8178,State:1,Class:16
+2019-03-13 17:13:40.3758|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:27159d8d-4b6d-4c67-a06b-3e7e04e955b1
+Error Number:8178,State:1,Class:16
+2019-03-13 17:13:40.4138|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:27159d8d-4b6d-4c67-a06b-3e7e04e955b1
+Error Number:8178,State:1,Class:16
+2019-03-13 17:15:09.9648|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:27159d8d-4b6d-4c67-a06b-3e7e04e955b1
+Error Number:8178,State:1,Class:16
+2019-03-13 17:15:10.7550|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:27159d8d-4b6d-4c67-a06b-3e7e04e955b1
+Error Number:8178,State:1,Class:16
+2019-03-13 17:15:13.4911|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:27159d8d-4b6d-4c67-a06b-3e7e04e955b1
+Error Number:8178,State:1,Class:16
+2019-03-13 17:15:13.5181|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:27159d8d-4b6d-4c67-a06b-3e7e04e955b1
+Error Number:8178,State:1,Class:16
+2019-03-13 17:15:38.6785|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:a19cc368-db07-44b9-b586-caff2a1ed191
+Error Number:8178,State:1,Class:16
+2019-03-13 17:15:49.1086|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:a19cc368-db07-44b9-b586-caff2a1ed191
+Error Number:8178,State:1,Class:16
+2019-03-13 17:15:51.0625|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:a19cc368-db07-44b9-b586-caff2a1ed191
+Error Number:8178,State:1,Class:16
+2019-03-13 17:15:51.8953|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:a19cc368-db07-44b9-b586-caff2a1ed191
+Error Number:8178,State:1,Class:16
+2019-03-13 17:15:54.8195|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:a19cc368-db07-44b9-b586-caff2a1ed191
+Error Number:8178,State:1,Class:16
+2019-03-13 17:16:17.9834|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:a19cc368-db07-44b9-b586-caff2a1ed191
+Error Number:8178,State:1,Class:16
+2019-03-13 17:16:32.6131|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:132e28f4-8728-428c-a8ef-1518f2153194
+Error Number:8178,State:1,Class:16
+2019-03-13 17:18:12.7443|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:e715f67d-6e99-4af2-a062-e234a24312dc
+Error Number:8178,State:1,Class:16
+2019-03-13 17:18:16.6720|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:e715f67d-6e99-4af2-a062-e234a24312dc
+Error Number:8178,State:1,Class:16
+2019-03-13 17:18:21.5309|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:e715f67d-6e99-4af2-a062-e234a24312dc
+Error Number:8178,State:1,Class:16
+2019-03-13 17:21:13.0861|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:b0fe6d61-366b-41ce-bc96-2fcb15f07cbb
+Error Number:8178,State:1,Class:16
+2019-03-13 17:21:13.1672|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:b0fe6d61-366b-41ce-bc96-2fcb15f07cbb
+Error Number:8178,State:1,Class:16
+2019-03-13 17:24:49.8015|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:737a927a-84fb-4379-b708-2c97ac7ae1ae
+Error Number:8178,State:1,Class:16
+2019-03-13 17:25:09.9261|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:737a927a-84fb-4379-b708-2c97ac7ae1ae
+Error Number:8178,State:1,Class:16
+2019-03-13 17:31:29.1237|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:3a789cf5-9cbb-4efb-995f-e4f5f07349b3
+Error Number:8178,State:1,Class:16
+2019-03-13 17:31:43.8263|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:3a789cf5-9cbb-4efb-995f-e4f5f07349b3
+Error Number:8178,State:1,Class:16
+2019-03-13 17:34:04.3787|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:04b2871c-18f3-45f6-8d96-6faf5600f48f
+Error Number:8178,State:1,Class:16
+2019-03-13 17:34:08.9770|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:04b2871c-18f3-45f6-8d96-6faf5600f48f
+Error Number:8178,State:1,Class:16
+2019-03-13 17:34:10.5644|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@param1 nvarchar(4000),@param2 nvarchar(4000))SELECT * FROM web' expects the parameter '@param1', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 122
+   at BDOWeb.Loggin.LoginWithCookies(String username, String password) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 94
+ClientConnectionId:04b2871c-18f3-45f6-8d96-6faf5600f48f
+Error Number:8178,State:1,Class:16
+2019-03-14 08:46:41.4170|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 08:46:41.4410|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 08:46:41.4410|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 08:46:41.4410|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 08:46:57.5582|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BDOWeb.PrintNodewars.gvstatus_RowUpdating(Object sender, GridViewUpdateEventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 204
+ClientConnectionId:56bbe9de-e093-4698-9ecf-79f892bc77d0
+Error Number:241,State:1,Class:16Errore nell'inserimento.
+2019-03-14 08:47:11.7484|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BDOWeb.PrintNodewars.gvstatus_RowUpdating(Object sender, GridViewUpdateEventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 204
+ClientConnectionId:56bbe9de-e093-4698-9ecf-79f892bc77d0
+Error Number:241,State:1,Class:16Errore nell'inserimento.
+2019-03-14 08:59:48.7608|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 08:59:48.7838|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 08:59:48.7848|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 08:59:48.7848|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 09:29:47.5571|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Nessuna nodewar selezionata
+   at BDOWeb.PrintNodewars.ShowPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 116Errore nell'inserimento.
+2019-03-14 09:30:48.6375|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Nessuna nodewar selezionata
+   at BDOWeb.PrintNodewars.ShowPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 116Errore nell'inserimento.
+2019-03-14 09:31:57.1561|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Nessuna nodewar selezionata
+   at BDOWeb.PrintNodewars.ShowPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 116Errore nell'inserimento.
+2019-03-14 09:35:52.6977|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BDOWeb.AddNodewar.AddNodeBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\AddNodewar.aspx.cs:line 78
+ClientConnectionId:39ee67d5-b7f7-43f8-9b4a-32613a15e4b8
+Error Number:241,State:1,Class:16Errore nell'inserimento.
+2019-03-14 09:44:34.3127|ERROR|BDOWeb.Errors| Error: System.DivideByZeroException: Attempted to divide by zero.
+   at BDOWeb.PrintNodewars.gvBindUserNodes() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 95Errore nell'inserimento.
+2019-03-14 09:53:33.0552|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 09:53:33.0798|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 09:53:33.0818|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 09:53:33.0818|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 09:53:42.7062|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): The conversion of the nvarchar value '2531000000' overflowed an int column.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BDOWeb.PrintNodewars.gvstatus_RowUpdating(Object sender, GridViewUpdateEventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 211
+ClientConnectionId:5cb1d55f-7b44-4f7c-8c4e-bf826379ade9
+Error Number:248,State:1,Class:16Errore nell'inserimento.
+2019-03-14 09:54:58.7647|ERROR|BDOWeb.Errors| Error: System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BDOWeb.PrintNodewars.gvBindUserNodes() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 74Errore nell'inserimento.
+2019-03-14 09:55:27.5143|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 09:55:27.5143|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 09:57:07.9804|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-14 09:57:18.5442|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-15 09:36:57.6541|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Value does not fall within the expected range.
+   at BDOWeb.Loggin.LogIn(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 66
+2019-03-15 09:44:22.9709|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Value does not fall within the expected range.
+   at BDOWeb.Loggin.LogIn(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 65
+2019-03-15 09:45:46.2867|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Value does not fall within the expected range.
+   at BDOWeb.Loggin.LogIn(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 66
+2019-03-15 10:07:01.3034|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare un tier
+   at BDOWeb.AddNodewar.AddNodeBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\AddNodewar.aspx.cs:line 70Errore nell'inserimento.
+2019-03-15 10:10:25.7428|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare un tier
+   at BDOWeb.AddNodewar.AddNodeBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\AddNodewar.aspx.cs:line 70Errore nell'inserimento.
+2019-03-15 10:10:29.5993|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-15 10:10:29.5993|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-15 10:10:36.5953|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Nessuna nodewar selezionata
+   at BDOWeb.PrintNodewars.ShowPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 116Errore nell'inserimento.
+2019-03-15 10:27:45.0724|ERROR|BDOWeb.Errors| Error: System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BDOWeb.PrintNodewars.gvBindUserNodes() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 73
+2019-03-15 10:27:57.7376|ERROR|BDOWeb.Errors| Error: System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BDOWeb.PrintNodewars.gvBindUserNodes() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 83
+2019-03-15 10:56:46.5902|ERROR|BDOWeb.Errors| Error: System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BDOWeb.PrintNodewars.gvBindUserNodes() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 73
+2019-03-15 11:00:01.9208|ERROR|BDOWeb.Errors| Error: System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BDOWeb.PrintNodewars.gvBindUserNodes() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 73
+2019-03-15 11:01:14.7696|ERROR|BDOWeb.Errors| Error: System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BDOWeb.PrintNodewars.gvBindUserNodes() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 73
+2019-03-15 11:19:33.8872|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-15 11:19:33.9102|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-15 11:19:33.9102|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-15 11:19:33.9102|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-15 11:19:33.9102|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-15 11:19:33.9102|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-15 11:19:33.9102|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-15 11:21:16.4815|ERROR|BDOWeb.Errors| Error: System.Web.HttpException (0x80004005): A field or property with the name 'data' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at BDOWeb.PrintNodewars.gvBindEditPartecipations() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 54
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 163
+2019-03-15 11:23:35.7142|ERROR|BDOWeb.Errors| Error: System.Web.HttpException (0x80004005): A field or property with the name 'data' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at BDOWeb.PrintNodewars.gvBindEditPartecipations() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 54
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 163
+2019-03-15 11:27:44.3578|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Value does not fall within the expected range.
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 153
+2019-03-15 11:40:06.1444|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare almeno una nodewar
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 155
+2019-03-15 11:40:09.5129|ERROR|BDOWeb.Errors| Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.IsOnlyOneChecked() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 257
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 157
+2019-03-15 11:40:12.0828|ERROR|BDOWeb.Errors| Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.IsOnlyOneChecked() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 257
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 157
+2019-03-15 11:40:15.7066|ERROR|BDOWeb.Errors| Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.IsOnlyOneChecked() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 257
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 157
+2019-03-15 11:40:37.1602|ERROR|BDOWeb.Errors| Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.IsOnlyOneChecked() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 257
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 157
+2019-03-15 11:40:43.5877|ERROR|BDOWeb.Errors| Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.IsOnlyOneChecked() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 257
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 157
+2019-03-15 11:41:10.0572|ERROR|BDOWeb.Errors| Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.IsOnlyOneChecked() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 257
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 157
+2019-03-15 11:42:03.9773|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare almeno una nodewar
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 155
+2019-03-15 11:42:06.1623|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare soltanto una nodewar per modificare le presenze
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 159
+2019-03-15 11:42:09.4489|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare soltanto una nodewar per modificare le presenze
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 159
+2019-03-15 11:42:39.8440|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare soltanto una nodewar per modificare le presenze
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 159
+2019-03-15 11:43:05.7110|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare soltanto una nodewar per modificare le presenze
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 159
+2019-03-15 11:43:11.2957|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare almeno una nodewar
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 155
+2019-03-15 11:43:13.1269|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare soltanto una nodewar per modificare le presenze
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 159
+2019-03-15 11:43:15.0211|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare almeno una nodewar
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 155
+2019-03-15 11:52:06.7494|ERROR|BDOWeb.Errors| Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at BDOWeb.PrintNodewars.gvBindEditPartecipations() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 57
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 175
+2019-03-15 12:22:13.0193|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare una nodewar
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 164
+2019-03-15 12:26:34.5264|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@nodeID".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BDOWeb.PrintNodewars.SaveUpdatedPartecipations() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 245
+ClientConnectionId:b96a14cf-1338-478f-a759-eca8f31d9274
+Error Number:137,State:2,Class:15
+2019-03-15 12:34:45.3943|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare una nodewar
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 162
+2019-03-15 12:34:56.5213|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare una nodewar
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 162
+2019-03-15 14:33:46.1735|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:50:27.7593|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:50:34.0898|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:50:34.0898|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:50:34.0898|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:50:34.0898|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:50:34.0898|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:50:46.6110|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:50:46.6110|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:50:46.6110|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:50:46.6110|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:50:46.6170|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:50:47.9468|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:50:48.6405|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:50:49.5833|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:50:50.3391|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:50:50.4912|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:50:50.6443|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:50:50.8035|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:50:51.2069|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:50:51.3550|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:57:17.7220|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:59:11.3648|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:59:12.3807|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:59:23.5117|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 15:59:31.1473|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:59:31.1493|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:59:31.1493|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:59:31.1493|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:59:31.1493|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 15:59:37.8672|ERROR|BDOWeb.Errors| Error: System.InvalidCastException: Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BDOWeb.PrintNodewars.gvBindUserNodes() in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 123
+2019-03-16 16:01:01.7141|ERROR|BDOWeb.Errors| Error: System.ArgumentException: Selezionare soltanto una nodewar per modificare le presenze
+   at BDOWeb.PrintNodewars.EditPartecipationsBtn_Click(Object sender, EventArgs e) in C:\Dev\BDOWeb\BDOWeb\PrintNodewars.aspx.cs:line 181
+2019-03-16 20:08:13.2916|INFO|BDOWeb.Errors|Ip: fe80::f96d:3687:395b:fb2f%6 System.UnauthorizedAccessException: Non hai i permessi per visualizzare questa pagina.
+   at BDOWeb.Utils.GetPermissions(Int32 permissionLevel, Int32 pageRequiredLevel) in C:\Dev\BDOWeb\BDOWeb\Utils.cs:line 86
+2019-03-16 20:16:20.3771|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 20:19:38.6011|INFO|BDOWeb.Errors|Number of rows: 1
+2019-03-16 20:19:50.2762|INFO|BDOWeb.Errors|Number of rows: 1
+2021-10-16 11:06:02.2343|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BDOWeb.Loggin.ExecuteLogin(String username, String password) in D:\OldWin\Win10-08-10-20\Cduepuntislash\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 118
+   at BDOWeb.Loggin.LogIn(Object sender, EventArgs e) in D:\OldWin\Win10-08-10-20\Cduepuntislash\Dev\BDOWeb\BDOWeb\Loggin.aspx.cs:line 67
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2021-10-16 11:07:34.7011|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BDOWeb.PrintDrops.PopulateTable() in D:\OldWin\Win10-08-10-20\Cduepuntislash\Dev\BDOWeb\BDOWeb\PrintDrops.aspx.cs:line 84
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2021-10-16 11:07:34.7164|ERROR|BDOWeb.Errors| Error: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BDOWeb.WeekTotals.PopulateTable() in D:\OldWin\Win10-08-10-20\Cduepuntislash\Dev\BDOWeb\BDOWeb\WeekTotals.aspx.cs:line 44
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
